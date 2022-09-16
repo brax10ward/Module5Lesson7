@@ -9,13 +9,12 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        let urlObj = URL(string: "https://www.costco.com")
+        
+        if let url = urlObj {
+            WebView(url: url)
+                .edgesIgnoringSafeArea(.bottom)
         }
-        .padding()
     }
 }
 

@@ -11,6 +11,7 @@
 		2DFC4C1928D4E27400087AAB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFC4C1828D4E27400087AAB /* ContentView.swift */; };
 		2DFC4C1B28D4E27600087AAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DFC4C1A28D4E27600087AAB /* Assets.xcassets */; };
 		2DFC4C1E28D4E27600087AAB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DFC4C1D28D4E27600087AAB /* Preview Assets.xcassets */; };
+		2DFC4C2728D4E7D400087AAB /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFC4C2628D4E7D400087AAB /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		2DFC4C1828D4E27400087AAB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2DFC4C1A28D4E27600087AAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DFC4C1D28D4E27600087AAB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2DFC4C2628D4E7D400087AAB /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				2DFC4C1628D4E27400087AAB /* Module5Lesson7App.swift */,
 				2DFC4C1828D4E27400087AAB /* ContentView.swift */,
+				2DFC4C2628D4E7D400087AAB /* WebView.swift */,
 				2DFC4C1A28D4E27600087AAB /* Assets.xcassets */,
 				2DFC4C1C28D4E27600087AAB /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DFC4C2728D4E7D400087AAB /* WebView.swift in Sources */,
 				2DFC4C1928D4E27400087AAB /* ContentView.swift in Sources */,
 				2DFC4C1728D4E27400087AAB /* Module5Lesson7App.swift in Sources */,
 			);
